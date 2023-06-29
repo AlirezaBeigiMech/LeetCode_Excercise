@@ -10,6 +10,7 @@
 /// <param name="numsSize"></param>
 ///  integer size of array nums
 /// <returns>
+/// 
 /// Return true if you can reach the last index by jumpying with available array, or false otherwise.
 /// </returns>
 bool canJump(int* nums, int numsSize) {
