@@ -24,6 +24,9 @@
     <ClCompile Include="868_Binary_Gap.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="189_CyclicRotation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
