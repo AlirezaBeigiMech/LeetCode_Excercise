@@ -27,6 +27,9 @@
     <ClCompile Include="189_CyclicRotation.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="136_OddOccurrencesInArray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
