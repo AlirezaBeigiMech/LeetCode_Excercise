@@ -132,6 +132,7 @@
     <ClCompile Include="189_CyclicRotation.c" />
     <ClCompile Include="55_Jump_Game.c" />
     <ClCompile Include="868_Binary_Gap.c" />
+    <ClCompile Include="PermCheck.c" />
     <ClCompile Include="Source.c" />
   </ItemGroup>
   <ItemGroup>

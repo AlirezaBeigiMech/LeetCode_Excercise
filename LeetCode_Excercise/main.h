@@ -8,5 +8,6 @@ struct Results {
 struct Results solutionCyclicRotation(int A[], int N, int K);
 int solutionBinaryGap(int N);
 int solutionOddOccurrencesInArray(int A[], int N);
+int solutionPermCheck(int A[], int N);
 
 #pragma once
