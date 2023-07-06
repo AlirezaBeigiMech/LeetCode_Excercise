@@ -4,7 +4,7 @@
 // you can write to stdout for debugging purposes, e.g.
 // printf("this is a debug message\n");
 #include <string.h>
-int solution(int A[], int N) {
+int solutionMaxCounters(int A[], int N) {
     // Implement your solution here
     int maxN = 1;
     int Maxim = 1;
