@@ -33,6 +33,12 @@
     <ClCompile Include="PermCheck.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1941_MaxCounters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="41_MissingInteger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
