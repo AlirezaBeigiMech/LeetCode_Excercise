@@ -1,19 +1,34 @@
+// you can write to stdout for debugging purposes, e.g.
+// printf("this is a debug message\n");
+
+// you can write to stdout for debugging purposes, e.g.
+// printf("this is a debug message\n");
 #include <string.h>
 int solutionMissingInteger(int A[], int N) {
     // Implement your solution here
     int maxN = 1;
-    int* B = (int*)malloc(N * sizeof(int));
-    memset(B, 0, N * sizeof(int));
+    int Maxim = 1;
+    //int M = 1;
+    for (int i = 0; i < N; i++) {
+        if (A[i] > Maxim) {
+            Maxim = A[i];
+        }
+
+    }
+    //int B[Maxim];
+    int* B = malloc(Maxim * sizeof(int));
+    memset(B, 0, Maxim * sizeof(int));
     for (int i = 0; i < N; i++) {
         if (A[i] > 0) {
             B[A[i] - 1] = 1;
         }
+
     }
 
-    int j = N - 1;
+    int j = 0;
     int flag = 0;
     int sum = 0;
-    while (flag != 1 && j > -1) {
+    while (flag != 1 && j < N) {
         if (B[j] == 0) {
             maxN = j + 1;
             flag = 1;
@@ -22,7 +37,7 @@ int solutionMissingInteger(int A[], int N) {
             sum = sum + 1;
         }
 
-        j--;
+        j++;
 
     }
     if (sum == 0) {

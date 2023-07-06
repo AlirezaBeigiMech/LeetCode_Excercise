@@ -1,51 +1,30 @@
-// you can write to stdout for debugging purposes, e.g.
-// printf("this is a debug message\n");
+#include "main.h"
 
-// you can write to stdout for debugging purposes, e.g.
-// printf("this is a debug message\n");
-#include <string.h>
-int solutionMaxCounters(int A[], int N) {
+struct ResultsC solutionMaxCounters(int N, int A[], int M) {
     // Implement your solution here
-    int maxN = 1;
-    int Maxim = 1;
-    //int M = 1;
-    for (int i = 0; i < N; i++) {
-        if (A[i] > Maxim) {
-            Maxim = A[i];
-        }
+    struct ResultsC result;
+    result.L = N;
+    int maxcount = 0;
 
-    }
-    //int B[Maxim];
-    int* B = malloc(Maxim * sizeof(int));
-    memset(B, 0, Maxim * sizeof(int));
+    result.C = (int*)malloc(result.L * sizeof(int));
     for (int i = 0; i < N; i++) {
-        if (A[i] > 0) {
-            B[A[i] - 1] = 1;
-        }
+        result.C[i] = 0;
 
     }
 
-    int j = 0;
-    int flag = 0;
-    int sum = 0;
-    while (flag != 1 && j < N) {
-        if (B[j] == 0) {
-            maxN = j + 1;
-            flag = 1;
+    for (int i = 0; i < M; i++) {
+        if (A[i] != N + 1) {
+            result.C[(int)A[i] - 1] = result.C[(int)A[i] - 1] + 1;
+            if (result.C[(int)A[i] - 1] > maxcount) {
+                maxcount = result.C[(int)A[i] - 1];
+            }
         }
         else {
-            sum = sum + 1;
+            for (int j = 0; j < N; j++) {
+                result.C[j] = maxcount;
+            }
         }
-
-        j++;
-
-    }
-    if (sum == 0) {
-        maxN = 1;
     }
 
-    else if (sum == N) {
-        maxN = N + 1;
-    }
-    return maxN;
+    return result;
 }
