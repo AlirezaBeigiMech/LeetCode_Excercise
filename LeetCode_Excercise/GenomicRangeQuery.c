@@ -7,7 +7,7 @@ struct Results {
     int M; // Length of the array
 };
 
-struct Results solution(char* S, int P[], int Q[], int M) {
+struct Results solutionGenomicRangeQuery(char* S, int P[], int Q[], int M) {
     // Implement your solution here
     struct Results result;
     int minDNA = 1;
