@@ -134,6 +134,9 @@
     <ClCompile Include="41_MissingInteger.c" />
     <ClCompile Include="55_Jump_Game.c" />
     <ClCompile Include="868_Binary_Gap.c" />
+    <ClCompile Include="CountDiv.c" />
+    <ClCompile Include="GenomicRangeQuery.c" />
+    <ClCompile Include="PassingCar.c" />
     <ClCompile Include="PermCheck.c" />
     <ClCompile Include="Source.c" />
   </ItemGroup>

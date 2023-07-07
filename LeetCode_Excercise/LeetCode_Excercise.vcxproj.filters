@@ -39,6 +39,15 @@
     <ClCompile Include="41_MissingInteger.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PassingCar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CountDiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenomicRangeQuery.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
