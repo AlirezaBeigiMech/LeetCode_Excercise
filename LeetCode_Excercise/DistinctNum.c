@@ -1,5 +1,5 @@
 #include <string.h>
-int solution(int A[], int N) {
+int solutionDistinctNum(int A[], int N) {
     // Implement your solution here
     int max = -1000000;
     int min = 1000000;

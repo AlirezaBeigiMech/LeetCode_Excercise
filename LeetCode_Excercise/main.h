@@ -15,5 +15,6 @@ int solutionBinaryGap(int N);
 int solutionOddOccurrencesInArray(int A[], int N);
 int solutionPermCheck(int A[], int N);
 struct ResultsC solutionMaxCounters(int N, int A[], int M);
+int solutionDistinctNum(int A[], int N);
 
 #pragma once
