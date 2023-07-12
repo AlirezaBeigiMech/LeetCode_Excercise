@@ -135,6 +135,7 @@
     <ClCompile Include="55_Jump_Game.c" />
     <ClCompile Include="868_Binary_Gap.c" />
     <ClCompile Include="CountDiv.c" />
+    <ClCompile Include="DistinctNum.c" />
     <ClCompile Include="GenomicRangeQuery.c" />
     <ClCompile Include="PassingCar.c" />
     <ClCompile Include="PermCheck.c" />
