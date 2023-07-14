@@ -140,6 +140,7 @@
     <ClCompile Include="PassingCar.c" />
     <ClCompile Include="PermCheck.c" />
     <ClCompile Include="Source.c" />
+    <ClCompile Include="Triangle.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h" />

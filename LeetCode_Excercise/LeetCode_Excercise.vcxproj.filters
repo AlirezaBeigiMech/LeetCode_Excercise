@@ -51,6 +51,9 @@
     <ClCompile Include="DistinctNum.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Triangle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
