@@ -13,6 +13,8 @@ int main() {
     int nums1[5] = { 2, 3, 1, 1, 4 };
     int array189[5] = {3, 8, 9, 7, 6};
     int array136[5] = { 4, 1, 2, 1, 2 };
+
+
     int arrayPermCheck[4] = {4,1,2,3};
     int  numsSize = 5;
     bool a = canJump(nums, numsSize);
@@ -26,7 +28,10 @@ int main() {
     printf("Q189 Answer for  A = {3, 8, 9, 7, 6} and K = 3 is newA = \n" );
 
     printArray(result.A, 5);
-
+    char s[5] = "{()}";
+    printf("\nAnswer for  {} is = %d\n", s[3]);
+    printf("\nAnswer for  {} is = %d\n", solutionCheckBrackets(s));
+    
     printf("Q PermCheck Answer for  A = {4,1,2,3} = %d\n", solutionPermCheck(arrayPermCheck, 4));
 
     

@@ -134,6 +134,7 @@
     <ClCompile Include="41_MissingInteger.c" />
     <ClCompile Include="55_Jump_Game.c" />
     <ClCompile Include="868_Binary_Gap.c" />
+    <ClCompile Include="CheckBrackets.c" />
     <ClCompile Include="CountDiv.c" />
     <ClCompile Include="DistinctNum.c" />
     <ClCompile Include="GenomicRangeQuery.c" />

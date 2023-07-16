@@ -12,7 +12,7 @@ struct Results solutionGenomicRangeQuery(char* S, int P[], int Q[], int M) {
         int N = strlen(S);
         int* C = malloc(N * sizeof(int));
         
-        int *matrix[4] = malloc(N * sizeof(int));
+        int **matrix = malloc(N * sizeof(int));
         result.A = malloc(M * sizeof(int)); ;
         memset(matrix, 0, 4 * (N + 1) * sizeof(int));
 

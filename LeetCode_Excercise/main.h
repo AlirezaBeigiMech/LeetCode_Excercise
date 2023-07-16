@@ -16,5 +16,9 @@ int solutionOddOccurrencesInArray(int A[], int N);
 int solutionPermCheck(int A[], int N);
 struct ResultsC solutionMaxCounters(int N, int A[], int M);
 int solutionDistinctNum(int A[], int N);
+int solutionCheckBrackets(char* S);
+
+
+// quick sort
 
 #pragma once
