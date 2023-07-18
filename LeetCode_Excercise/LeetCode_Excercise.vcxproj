@@ -137,6 +137,7 @@
     <ClCompile Include="CheckBrackets.c" />
     <ClCompile Include="CountDiv.c" />
     <ClCompile Include="DistinctNum.c" />
+    <ClCompile Include="Dominator.c" />
     <ClCompile Include="GenomicRangeQuery.c" />
     <ClCompile Include="PassingCar.c" />
     <ClCompile Include="PermCheck.c" />
