@@ -21,6 +21,15 @@ int main() {
     bool a1 = canJump(nums1, numsSize);
     struct Results result = solutionCyclicRotation(array189, 5, 3);
     int resOddOccurrencesInArray = solutionOddOccurrencesInArray(array136, 5);
+
+    //*(array136+2);
+    int array1891[5] = { 3, 8, 9, 7, 6 };
+    printArray(array1891, 5);
+    printf("\narray 2 = %x\n", (array1891));
+    // = (array1891 + 2);
+    printf("\narray 2 \n");
+    printArray(array1891, 4);
+    printf("\narray 2 = %d\n", *(array1891+1));
     printf("Q55 Answer for { 3, 2, 1, 0, 4 } = %d\n", a);
     printf("Q55 Answer for { 2, 3, 1, 1, 4 } = %d\n", a1);
     printf("Q868 Answer for { 185 } or 10111001 = %d\n", solutionBinaryGap(185));

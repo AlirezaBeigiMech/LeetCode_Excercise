@@ -141,6 +141,7 @@
     <ClCompile Include="PassingCar.c" />
     <ClCompile Include="PermCheck.c" />
     <ClCompile Include="Source.c" />
+    <ClCompile Include="StoneWall.c" />
     <ClCompile Include="Triangle.c" />
   </ItemGroup>
   <ItemGroup>

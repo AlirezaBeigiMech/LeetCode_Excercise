@@ -17,6 +17,7 @@ int solutionPermCheck(int A[], int N);
 struct ResultsC solutionMaxCounters(int N, int A[], int M);
 int solutionDistinctNum(int A[], int N);
 int solutionCheckBrackets(char* S);
+int solutionStoneWall(int H[], int N);
 
 
 // quick sort
