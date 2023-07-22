@@ -63,6 +63,9 @@
     <ClCompile Include="Dominator.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="maxprofit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">

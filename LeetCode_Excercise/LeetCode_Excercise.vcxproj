@@ -139,6 +139,7 @@
     <ClCompile Include="DistinctNum.c" />
     <ClCompile Include="Dominator.c" />
     <ClCompile Include="GenomicRangeQuery.c" />
+    <ClCompile Include="maxprofit.c" />
     <ClCompile Include="PassingCar.c" />
     <ClCompile Include="PermCheck.c" />
     <ClCompile Include="Source.c" />
