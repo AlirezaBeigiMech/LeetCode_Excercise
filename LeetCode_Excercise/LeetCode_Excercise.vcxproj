@@ -139,6 +139,7 @@
     <ClCompile Include="DistinctNum.c" />
     <ClCompile Include="Dominator.c" />
     <ClCompile Include="GenomicRangeQuery.c" />
+    <ClCompile Include="MaxDoubleSliceSum.c" />
     <ClCompile Include="maxprofit.c" />
     <ClCompile Include="MaxSliceSum.c" />
     <ClCompile Include="PassingCar.c" />
