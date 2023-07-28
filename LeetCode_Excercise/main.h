@@ -19,6 +19,7 @@ int solutionDistinctNum(int A[], int N);
 int solutionCheckBrackets(char* S);
 int solutionDominator(int A[], int N);
 int solutionStoneWall(int H[], int N);
+int solutionCountFactor(int N);
 
 
 // quick sort

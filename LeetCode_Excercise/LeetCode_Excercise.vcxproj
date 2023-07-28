@@ -136,6 +136,7 @@
     <ClCompile Include="868_Binary_Gap.c" />
     <ClCompile Include="CheckBrackets.c" />
     <ClCompile Include="CountDiv.c" />
+    <ClCompile Include="CountFactor.c" />
     <ClCompile Include="DistinctNum.c" />
     <ClCompile Include="Dominator.c" />
     <ClCompile Include="GenomicRangeQuery.c" />

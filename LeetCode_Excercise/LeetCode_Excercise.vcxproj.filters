@@ -72,6 +72,9 @@
     <ClCompile Include="MaxDoubleSliceSum.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CountFactor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
