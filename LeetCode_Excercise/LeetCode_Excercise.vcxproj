@@ -143,6 +143,7 @@
     <ClCompile Include="MaxDoubleSliceSum.c" />
     <ClCompile Include="maxprofit.c" />
     <ClCompile Include="MaxSliceSum.c" />
+    <ClCompile Include="MinPerimeterRectangle.c" />
     <ClCompile Include="PassingCar.c" />
     <ClCompile Include="PermCheck.c" />
     <ClCompile Include="Source.c" />
