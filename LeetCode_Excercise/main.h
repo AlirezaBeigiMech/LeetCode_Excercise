@@ -21,6 +21,7 @@ int solutionDominator(int A[], int N);
 int solutionStoneWall(int H[], int N);
 int solutionCountFactor(int N);
 int solutionMinPerimeterRectangle(int N);
+int solutionflag(int A[], int N);
 
 
 // quick sort
