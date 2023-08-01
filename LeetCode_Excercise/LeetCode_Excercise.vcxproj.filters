@@ -81,6 +81,9 @@
     <ClCompile Include="flag.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CountNonDivisible.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
