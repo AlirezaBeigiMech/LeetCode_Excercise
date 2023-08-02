@@ -135,6 +135,7 @@
     <ClCompile Include="55_Jump_Game.c" />
     <ClCompile Include="868_Binary_Gap.c" />
     <ClCompile Include="CheckBrackets.c" />
+    <ClCompile Include="ChocolatesByNumbers.c" />
     <ClCompile Include="CountDiv.c" />
     <ClCompile Include="CountFactor.c" />
     <ClCompile Include="CountNonDivisible.c" />
