@@ -23,6 +23,7 @@ int solutionCountFactor(int N);
 int solutionMinPerimeterRectangle(int N);
 int solutionflag(int A[], int N);
 struct Results solutionCountNonDivisible(int A[], int N);
+int solutionCommonPrimeDivisor(int A[], int B[], int Z);
 
 
 // quick sort
