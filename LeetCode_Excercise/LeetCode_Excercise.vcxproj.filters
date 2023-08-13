@@ -90,12 +90,33 @@
     <ClCompile Include="CommonPrimeDivisor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="21_mergeTwoLists.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="max.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="printarray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="List.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="max.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="printarray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

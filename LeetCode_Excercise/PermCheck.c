@@ -1,6 +1,7 @@
 #include <string.h>
 #include "main.h"
 
+
 int solutionPermCheck(int A[], int N) {
     // Implement your solution here
     //int c[N];

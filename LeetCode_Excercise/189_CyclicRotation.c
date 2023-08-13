@@ -1,4 +1,9 @@
-#include "main.h"
+//#include "main.h"
+#include <stdlib.h>
+struct Results {
+    int* A;
+    int N; // Length of the array
+};
 
 struct Results solutionCyclicRotation(int A[], int N, int K) {
     // Implement your solution here

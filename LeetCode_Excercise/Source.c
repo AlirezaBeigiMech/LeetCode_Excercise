@@ -1,11 +1,8 @@
 
 #include "55_Jump_Game.h"
 #include "main.h"
+#include "printarray.h"
 
-void printArray(int A[], int N) {
-    for (int loop = 0; loop < N; loop++)
-        printf("%d ", A[loop]);
-}
 
 int main() {
     // Q 55, Answer of the Jump Game
@@ -42,6 +39,29 @@ int main() {
     printf("\nAnswer for  {} is = %d\n", solutionCheckBrackets(s));
     
     printf("Q PermCheck Answer for  A = {4,1,2,3} = %d\n", solutionPermCheck(arrayPermCheck, 4));
+
+
+    /*
+    * Merge Two List
+    * 
+    */
+    struct ListNode* list1 = malloc(sizeof(struct ListNode));
+    struct ListNode* list2 = malloc(sizeof(struct ListNode));
+    list1->val = 2;
+    list1->next = malloc(sizeof(struct ListNode));
+    list1->next->val = 7;
+    list1->next->next = malloc(sizeof(struct ListNode));
+    list1->next->next->val = 9;
+
+    list2->val = 1;
+    list2->next = malloc(sizeof(struct ListNode));
+    list2->next->val = 6;
+    list2->next->next = malloc(sizeof(struct ListNode));
+    list2->next->next->val = 8;
+
+
+
+    struct ListNode* list3 = mergeTwoLists(list1, list2);
 
     
  

@@ -1,13 +1,9 @@
 // you can write to stdout for debugging purposes, e.g.
 // printf("this is a debug message\n");
 
-int max(int elem1, int elem2);
+#include "max.h"
 
-void printArray(int A[], int N) {
-    for (int loop = 0; loop < N; loop++)
-        printf("%d ", A[loop]);
-    printf("\n");
-}
+#include "printarray.h"
 
 int solutionMaxDoubleSliceSum(int A[], int N) {
     // Implement your solution here
@@ -41,10 +37,4 @@ int solutionMaxDoubleSliceSum(int A[], int N) {
 
     return finalmax;
 
-}
-int max(int elem1, int elem2) {
-    if (elem1 > elem2) { return elem1; }
-    else {
-        return elem2;
-    }
 }

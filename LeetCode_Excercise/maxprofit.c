@@ -1,6 +1,6 @@
 // you can write to stdout for debugging purposes, e.g.
 // printf("this is a debug message\n");
-int max(int elem1, int elem2);
+#include "max.h"
 int solutionmaxprofit(int A[], int N) {
     // Implement your solution here
     long profit = 0;
@@ -12,9 +12,3 @@ int solutionmaxprofit(int A[], int N) {
     return profit;
 }
 
-int max(int elem1, int elem2) {
-    if (elem1 > elem2) { return elem1; }
-    else {
-        return elem2;
-    }
-}

@@ -1,4 +1,10 @@
-#include "main.h"
+//#include "main.h"
+struct ResultsC {
+    int* C;
+    int L; // Length of the array
+};
+
+
 
 struct ResultsC solutionMaxCounters(int N, int A[], int M) {
     // Implement your solution here

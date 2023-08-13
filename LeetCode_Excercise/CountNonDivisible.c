@@ -1,8 +1,8 @@
 #include "main.h"
 
-struct Results solutionCountNonDivisible(int A[], int N) {
+struct ResultsC solutionCountNonDivisible(int A[], int N) {
     // Implement your solution here
-    struct Results result;
+    struct ResultsC result;
     int * B = malloc((2 * N + 1)* sizeof(int));
     int* C = malloc(N * sizeof(int));
 

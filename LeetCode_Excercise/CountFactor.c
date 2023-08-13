@@ -1,5 +1,5 @@
 #include <math.h>
-int solution(int N) {
+int solutionCountFactor(int N) {
     // Implement your solution here
     int i = 1;
     int count = 0;

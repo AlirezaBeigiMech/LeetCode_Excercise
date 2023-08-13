@@ -131,6 +131,7 @@
     <ClCompile Include="136_OddOccurrencesInArray.c" />
     <ClCompile Include="189_CyclicRotation.c" />
     <ClCompile Include="1941_MaxCounters.c" />
+    <ClCompile Include="21_mergeTwoLists.c" />
     <ClCompile Include="41_MissingInteger.c" />
     <ClCompile Include="55_Jump_Game.c" />
     <ClCompile Include="868_Binary_Gap.c" />
@@ -144,19 +145,25 @@
     <ClCompile Include="Dominator.c" />
     <ClCompile Include="flag.c" />
     <ClCompile Include="GenomicRangeQuery.c" />
+    <ClCompile Include="List.c" />
+    <ClCompile Include="max.c" />
     <ClCompile Include="MaxDoubleSliceSum.c" />
     <ClCompile Include="maxprofit.c" />
     <ClCompile Include="MaxSliceSum.c" />
     <ClCompile Include="MinPerimeterRectangle.c" />
     <ClCompile Include="PassingCar.c" />
     <ClCompile Include="PermCheck.c" />
+    <ClCompile Include="printarray.c" />
     <ClCompile Include="Source.c" />
     <ClCompile Include="StoneWall.c" />
     <ClCompile Include="Triangle.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h" />
+    <ClInclude Include="List.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="max.h" />
+    <ClInclude Include="printarray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
