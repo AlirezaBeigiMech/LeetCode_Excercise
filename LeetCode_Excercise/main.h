@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 //#include "List.h"
 
 
@@ -19,7 +20,7 @@ struct ListNode {
 };
 
 
-
+bool hasCycle(struct ListNode* head);
 
 struct Results solutionCyclicRotation(int A[], int N, int K);
 int solutionBinaryGap(int N);
