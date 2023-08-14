@@ -111,6 +111,9 @@
     <ClCompile Include="206_reverseList.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="283_moveZeros.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
