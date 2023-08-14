@@ -131,6 +131,7 @@
     <ClCompile Include="136_OddOccurrencesInArray.c" />
     <ClCompile Include="141_hasCycle.c" />
     <ClCompile Include="189_CyclicRotation.c" />
+    <ClCompile Include="189_rotate.c" />
     <ClCompile Include="1941_MaxCounters.c" />
     <ClCompile Include="21_mergeTwoLists.c" />
     <ClCompile Include="41_MissingInteger.c" />

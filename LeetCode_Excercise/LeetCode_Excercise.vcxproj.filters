@@ -105,6 +105,9 @@
     <ClCompile Include="141_hasCycle.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="189_rotate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
