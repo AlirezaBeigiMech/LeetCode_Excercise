@@ -114,6 +114,9 @@
     <ClCompile Include="283_moveZeros.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1732_largestAltitude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">

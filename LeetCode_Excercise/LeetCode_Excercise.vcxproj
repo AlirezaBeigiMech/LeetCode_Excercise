@@ -149,6 +149,7 @@
     <ClCompile Include="Dominator.c" />
     <ClCompile Include="flag.c" />
     <ClCompile Include="GenomicRangeQuery.c" />
+    <ClCompile Include="1732_largestAltitude.c" />
     <ClCompile Include="List.c" />
     <ClCompile Include="max.c" />
     <ClCompile Include="MaxDoubleSliceSum.c" />
