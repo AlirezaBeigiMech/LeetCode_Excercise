@@ -117,6 +117,9 @@
     <ClCompile Include="1732_largestAltitude.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="643_findMaxAverage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">

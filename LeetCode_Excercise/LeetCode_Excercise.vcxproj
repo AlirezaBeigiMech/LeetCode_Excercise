@@ -138,6 +138,7 @@
     <ClCompile Include="283_moveZeros.c" />
     <ClCompile Include="41_MissingInteger.c" />
     <ClCompile Include="55_Jump_Game.c" />
+    <ClCompile Include="643_findMaxAverage.c" />
     <ClCompile Include="868_Binary_Gap.c" />
     <ClCompile Include="CheckBrackets.c" />
     <ClCompile Include="ChocolatesByNumbers.c" />
