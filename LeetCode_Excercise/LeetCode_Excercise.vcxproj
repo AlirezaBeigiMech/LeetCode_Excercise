@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1207_uniqueOccurrences.c" />
     <ClCompile Include="136_OddOccurrencesInArray.c" />
     <ClCompile Include="141_hasCycle.c" />
     <ClCompile Include="189_CyclicRotation.c" />
