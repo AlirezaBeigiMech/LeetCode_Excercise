@@ -120,6 +120,9 @@
     <ClCompile Include="643_findMaxAverage.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="724_pivotIndex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
