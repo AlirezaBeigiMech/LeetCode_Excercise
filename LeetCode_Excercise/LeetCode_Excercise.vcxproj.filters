@@ -129,6 +129,9 @@
     <ClCompile Include="1207_uniqueOccurrences.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="392_IsSubsequence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
