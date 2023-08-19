@@ -144,6 +144,7 @@
     <ClCompile Include="643_findMaxAverage.c" />
     <ClCompile Include="724_pivotIndex.c" />
     <ClCompile Include="868_Binary_Gap.c" />
+    <ClCompile Include="933_NumberofRecentCalls.c" />
     <ClCompile Include="CheckBrackets.c" />
     <ClCompile Include="ChocolatesByNumbers.c" />
     <ClCompile Include="CommonPrimeDivisor.c" />
