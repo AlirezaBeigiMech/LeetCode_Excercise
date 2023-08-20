@@ -138,6 +138,9 @@
     <ClCompile Include="2095_deleteMiddle.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="328_OddEvenList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
