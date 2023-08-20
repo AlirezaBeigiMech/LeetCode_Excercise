@@ -138,6 +138,7 @@
     <ClCompile Include="2095_deleteMiddle.c" />
     <ClCompile Include="21_mergeTwoLists.c" />
     <ClCompile Include="2215_findDifference.c" />
+    <ClCompile Include="2390_RemoveStars.c" />
     <ClCompile Include="283_moveZeros.c" />
     <ClCompile Include="328_OddEvenList.c" />
     <ClCompile Include="392_IsSubsequence.c" />

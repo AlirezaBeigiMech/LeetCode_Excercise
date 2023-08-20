@@ -141,6 +141,9 @@
     <ClCompile Include="328_OddEvenList.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2390_RemoveStars.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
