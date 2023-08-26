@@ -172,6 +172,7 @@
     <ClCompile Include="Source.c" />
     <ClCompile Include="StoneWall.c" />
     <ClCompile Include="Triangle.c" />
+    <ClCompile Include="twosum.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h" />

@@ -147,6 +147,9 @@
     <ClCompile Include="735_asteroidCollision.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="twosum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
