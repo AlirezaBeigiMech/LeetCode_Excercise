@@ -150,6 +150,9 @@
     <ClCompile Include="twosum.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="104_MaxDepth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
