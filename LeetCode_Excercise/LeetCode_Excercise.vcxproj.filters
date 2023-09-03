@@ -156,6 +156,9 @@
     <ClCompile Include="872_LeafSimilar.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1448_goodNodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="55_Jump_Game.h">
