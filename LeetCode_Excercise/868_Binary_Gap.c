@@ -16,6 +16,7 @@ binary representation 10000010001 and so its longest binary gap is of length 5. 
 
 
 
+
 int solutionBinaryGap(int N) {
     // Implement your solution here
     int M = 0;
